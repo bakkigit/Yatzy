@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Yatzy</title>
+    <link rel="stylesheet" href="indexCSS.css">
+    <script src="pracc.js" defer></script>
+</head>
+<body>
+    <h1 id="øversteText">TRYK ROLL FOR AT STARTE</h1>
+    <h2 id="øversteText">ANTAL SLAG SLÅET: </h2>
+
+    <div class="container">
+        <input id="dice" type="button">
+        <input id="dice" type="button">
+        <input id="dice" type="button">
+        <input id="dice" type="button">
+        <input id="dice" type="button">
+    </div>
+    <div class="roll">
+        <button id="rollKnap">ROLL</button>
+        <button id="restart">RESTART</button>
+    </div>
+
+    <div class="table">
+        <div><strong> Section</strong></div>
+        <div><strong>Score</strong></div>
+        <div>Ones</div>
+        <div class="grid-item" id="clikable">...</div>
+        <div>Twos</div>
+        <div class="grid-item" id="clikable">...</div>
+        <div>Threes</div>
+        <div class="grid-item" id="clikable">...</div>
+        <div>Fours</div>
+        <div class="grid-item" id="clikable">...</div>
+        <div>Fives</div>
+        <div class="grid-item" id="clikable">...</div>
+        <div>Sixes</div>
+        <div class="grid-item" id="clikable">...</div>
+        <div><strong>Total Score</strong></div>
+        <div class="grid-item" id="upperSectionTotal"></div>
+        <div><strong>Bonus</strong></div>
+        <div class="grid-item" id="bonus"></div>
+    </div>
+
+    <div class="table">
+        <div><strong>Section</strong></div>
+        <div><strong>Score</strong></div>
+        <div>3 of a kind</div>
+        <div class="grid-item" id="clikable">...</div>
+        <div>4 of a kind</div>
+        <div class="grid-item"  id="clikable">...</div>
+        <div>Full house</div>
+        <div class="grid-item"  id="clikable">...</div>
+        <div>Small straight</div>
+        <div class="grid-item"  id="clikable">...</div>
+        <div>Large straight</div>
+        <div class="grid-item"  id="clikable">...</div>
+        <div>Chance</div>
+        <div class="grid-item"  id="clikable">...</div>
+        <div>Yatzy</div>
+        <div class="grid-item"  id="clikable">...</div>
+        <div><strong>Grand total</strong></div>
+        <div class="grid-item"  id="grandtotal"></div>
+    </div>
+</body>
+</html>
